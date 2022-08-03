@@ -9,7 +9,7 @@ const NavHome = ({ setCurrentPage }) => {
 		<div className={style.navHomeContainer}>
 			<div className={style.navHomeLogo}>
 				<img className={style.logoImg} src={LogoImg2} alt='logo-pokemon' />
-				POKE<span className={style.variantText}>App</span>
+				POKE<span className={style.variantText}>DEX</span>
 			</div>
 			<div className={style.searchContainer}>
 				<SearchBar setCurrentPage={setCurrentPage} />
