@@ -1,0 +1,14 @@
+.menuFilterContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+
+@media (max-width: 650px) {
+	.menuFilterContainer {
+		font-size: 14px;
+		flex-direction: column;
+		align-items: center;
+	}
+}
