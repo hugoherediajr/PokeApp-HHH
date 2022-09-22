@@ -218,7 +218,7 @@ const CreatePokemonPage = () => {
 									type='text'
 									name='name'
 									value={newPokemon.name}
-									placeholder='Ejm: david'
+									placeholder='Ejem: Hugomon'
 									onChange={(e) => handlerChange(e)}
 									autoComplete='off'
 								/>
